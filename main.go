@@ -6,6 +6,7 @@ import (
 	"strings"
 
 	introduction "github.com/mirza-krbezlija/study-competitive/1-introduction"
+	loopsandarrays "github.com/mirza-krbezlija/study-competitive/2-loops-and-arrays"
 )
 
 type Task interface {
@@ -22,6 +23,8 @@ func main() {
 	tasks := map[int]Task{
 		1: introduction.Task1{},
 		2: introduction.Task2{},
+		3: loopsandarrays.Task3{},
+		4: loopsandarrays.Task4{},
 	}
 
 	tasks[taskNr].Run()
