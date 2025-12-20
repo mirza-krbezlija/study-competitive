@@ -26,6 +26,7 @@ func main() {
 		3: loopsandarrays.Task3{},
 		4: loopsandarrays.Task4{},
 		5: loopsandarrays.Task5{},
+		6: loopsandarrays.Task6{},
 	}
 
 	tasks[taskNr].Run()
